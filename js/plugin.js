@@ -26,11 +26,15 @@ $(function () {
 
     'use strict';
 
-    $('.windowHeight').height($(window).height());
+    var header = $("#header").innerHeight();
+
+    console.log(header);
+
+    $('.windowHeight').height($(window).height() - header);
 
     $(window).resize(function () {
 
-        $('.windowHeight').height($(window).height());
+        $('.windowHeight').height($(window).height() - header);
 
     });
 });
@@ -55,13 +59,14 @@ $(document).ready(function () {
 
 /*********************************************************/
 /* padding navbar height */
+/*
 $(function () {
     'use strict';
 
     $('body, .paddingNavbarHeight').css('paddingTop', $('.navbar').innerHeight());
 
 });
-
+*/
 
 /************************************************/
 
@@ -158,7 +163,7 @@ $(".toggle").click(function () {
 
 /***********************************************************/
 
-
+/*
 $(document).ready(function () {
     'use strict';
     $(window).resize(function () {
@@ -169,5 +174,12 @@ $(document).ready(function () {
     $('.paddingMidWindow').each(function () {
         $(this).css('paddingTop', ($(window).height() - $('.padding-top').height()) / 2);
     });
-});
+});*/
 /**************************/
+/*
+$(window).ready(function () {
+    $(".nav-link .dropdown").hover(function () {
+        $(".dropdown-menu ").addClass("show");
+    });
+});
+*/

@@ -33,6 +33,8 @@ body {
 
 .paddingMidWindow {}
 
+.magnific {}
+
 /* End Global */
 
 
@@ -169,7 +171,12 @@ body {
 
 /* End direction */
 
+
 /* Start margin*/
+.margin-auto {
+    margin: auto
+}
+
 .margin-0 {
     margin: 0 !important
 }
@@ -2387,7 +2394,7 @@ body {
 
 /* Start button */
 .btn-transparent {
-    border: 3px solid #fff;
+    border: 1px solid #fff;
     background: transparent;
     color: #fff;
 }
@@ -2466,7 +2473,18 @@ body {
     position: fixed;
     bottom: 10px;
     right: -400px;
-    z-index: 9999
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.welcomeMessage .fa-close {
+    color: #58B5FD;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    border: 1px solid #58B5FD;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 /* End welcomeMessage*/
@@ -2702,3 +2720,13 @@ body {
 }
 
 /* End Hr My STYLE*/
+/* Start */
+
+.elementCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/* End */
