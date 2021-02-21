@@ -170,3 +170,4 @@ $(document).ready(function () {
         $(this).css('paddingTop', ($(window).height() - $('.padding-top').height()) / 2);
     });
 });
+/**************************/

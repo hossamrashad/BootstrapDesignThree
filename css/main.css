@@ -1,6 +1,6 @@
 /* Start global */
 /* Start color */
-.color {
+.colors {
     color: #55efc4;
     color: #00b894;
     color: #81ecec;
@@ -99,6 +99,18 @@
 
 }
 
+.color-fff {
+    color: #fff
+}
+
+.color-f00 {
+    color: #f00
+}
+
+.color-00f {
+    color: #00f
+}
+
 .back-l-g {
     background: linear-gradient(147deg, rgb(243, 245, 95), rgb(36, 126, 209));
 }
@@ -131,19 +143,155 @@
 
 .socialMedia li {
     display: inline-block;
-    border: 1px solid #ddd;
-    margin: 0 5px;
-    border-radius: 50%
 }
 
-.socialMedia li a {}
+.search i {
+    color: #fff
+}
 
 
 
+input.search-form {
+    background: transparent;
+    border: 0 none;
+    width: 60px;
+    padding: 0 10px;
+    color: #FFF;
+    -webkit-transition: all 400ms;
+    -moz-transition: all 400ms;
+    -o-transition: all 400ms;
+    -ms-transition: all 400ms;
+    transition: all 400ms;
+}
 
+input.search-form::-webkit-input-placeholder {
+    color: transparent;
+}
 
+input.search-form:hover::-webkit-input-placeholder {
+    color: #fff;
+}
 
+input.search-form:hover {
+    width: 180px;
+}
 
+/************************/
+/* Start navbar */
+navbar-light {
+    border: none;
+    color: #fff !important
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 15px 0 0 0;
+    padding-bottom: 0;
+    background: #151515;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+/* الاسهم اللى فى الناف بار اللى بتظهار فى شاشات الموبايل  */
+.navbar-light .navbar-toggler {
+    background-color: #fff
+}
+
+.navbar-nav {
+    margin-top: 12px;
+}
+
+.navbar-nav > li {
+    margin-left: 35px;
+    padding-bottom: 28px;
+}
+
+.navbar .navbar-nav > li > a {
+    padding: 5px 12px;
+    margin: 0;
+    border-radius: 3px;
+    color: #fff !important;
+    line-height: 24px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.navbar .navbar-nav > li > a:hover {
+    background-color: #ee5253;
+    color: #fff;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 36px;
+    line-height: 50px;
+    color: #fff;
+}
+
+/*
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute !important;
+    top: 90px !important;
+}
+
+/*
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus,
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+    background-color: #EC5538;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+    border: 0;
+    padding: 0;
+    margin-top: 0;
+    border-top: 0;
+    border-radius: 0;
+    left: 0;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu:before {
+    position: absolute;
+    top: 48px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu > li > a {
+    padding: 8px 15px;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-expand-lg .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-expand-lg .navbar-nav .dropdown-menu > li.active > a {
+    background-color: #EC5538;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu > li:last-child > a {
+    border-radius: 0 0 3px 3px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu > li.divider {
+    background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse,
+.navbar-expand-lg .navbar-form {
+    border-top: 0;
+    padding-bottom: 0;
+}
+*/
+/* End navbar*/
 
 /* علشان اواسط العنصر فى الناص  */
 .slider .carousel-inner {
