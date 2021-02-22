@@ -789,3 +789,159 @@ span.barWidth::after {
 }
 
 /* End middle & skillArea*/
+
+/* Start  dynamic Tabs */
+/********************************************************************/
+
+.dynamic-tabs .tabs-list li {
+    padding: 15px 30px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    transition: .8s;
+    margin-bottom: 10px;
+}
+
+.dynamic-tabs .tabs-list .active,
+.dynamic-tabs .tabs-list li:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/*
+.dynamic-tabs .tabs-list .active {
+    border-bottom: 1px solid #fff;
+    z-index: 2
+}
+*/
+.dynamic-tabs .content-list {
+    border: 1px solid #3498db;
+    background-color: #fff;
+    position: relative;
+    height: 320px
+}
+
+/* التنسيقات دى بى تتطبق على العنصر الدفى الابن بس مش لو جواه داف تانى هيطبق علىية  */
+
+.dynamic-tabs .content-list > div {
+    padding: 20px;
+    min-height: 320px;
+}
+
+
+.dynamic-tabs .content-list > div:not(:first-child) {
+    display: none
+}
+
+.dynamic-tabs .content-tow {
+    overflow: hidden;
+}
+
+.dynamic-tabs .content-tow img {
+    max-height: 270px;
+    width: 100%;
+}
+
+.dynamic-tabs .content-tow a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(-175deg, #ddd, #458DF8);
+    border: 1px solid linear-gradient(-175deg, #ddd, #458DF8);
+    text-align: center;
+    opacity: .8
+}
+
+
+
+/* End  dynamic Tabs */
+
+/* Start testimonial */
+.testimonial {
+    background: #fafafa;
+    padding: 60px 0;
+    text-align: center
+}
+
+.testimonial .testimonialInfo {
+    margin-bottom: 30px
+}
+
+.testimonial h2 {
+    margin-top: 0;
+}
+
+.testimonial-slider {
+    color: #858586;
+    font-size: 14px;
+}
+
+.testimonial-slider .item {
+    background: #fff;
+    margin-left: 20px;
+}
+
+.testimonial-slider .slide-img {
+    padding: 20px 0;
+}
+
+.testimonial-slider .slide-img img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin: auto
+}
+
+.testimonial-slider .content img {
+    width: 50%;
+    height: 30px;
+    margin: 20px auto
+}
+
+.testimonial-slider .content h4 {
+    padding-bottom: 20px
+}
+
+.testimonial-slider .owl-dots .owl-dot {
+    border: 5px solid rgba(52, 152, 219, 0.63);
+    border-radius: 50%;
+    margin: 0 7px;
+}
+
+.testimonial-slider .owl-dots .active {
+    border: 5px solid #3498db
+}
+
+/* End testimonial */
+
+/* Start */
+#partner {
+    background-image: url(../images/partner-bg.png);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.partners ul li {
+    display: inline-block;
+    width: 19%;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+
+.partners ul li a {
+    text-align: center
+}
+
+.partners ul li a img {
+    margin: 0 auto
+}
+
+/* End */
