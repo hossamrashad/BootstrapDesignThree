@@ -187,12 +187,21 @@ $(window).ready(function () {
 
 $(function () {
     $('.tabs-list li').on('click', function () {
-        // هنا هاحط كلاس الاكتاف على العنصر اللى انا دست عليه و اخواتو يشيل من عليهم كلاس الاكتاف
-        //console.log($(this).data('content'));
+
+
         $(this).addClass('active').siblings().removeClass('active');
-        // هنا هيخفى الدافات كلها
+
         $('.content-list > div').hide();
-        // هنا هيظهر الداف اللى مرطبت بى نفس الدات كنتانت مع اليو اى
+
         $($(this).data('content')).fadeIn();
     });
+});
+/**************************************/
+
+$('.showLang').click(function () {
+
+    "use strict";
+
+    $('.toggleLang').slideToggle();
+
 });
