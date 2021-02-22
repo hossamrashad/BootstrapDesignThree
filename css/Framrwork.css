@@ -19,8 +19,8 @@
 
 body {
     text-transform: capitalize;
-    min-height: 7000px;
-    font-family: Kufi
+    min-height: 4000px;
+    font-family: Cairo
 }
 
 
@@ -2828,7 +2828,7 @@ body {
 }
 
 .testimonial-slider .slide-img {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .testimonial-slider .slide-img img {
@@ -2859,3 +2859,92 @@ body {
 }
 
 /* End testimonial */
+
+/* Foter & Linket */
+
+
+/***********************
+********* Footer ******
+************************/
+.footer-logo {
+    display: inline-block;
+}
+
+.bottom {
+    background: #f5f5f5;
+    border-bottom: 5px solid #3498db;
+    font-size: 14px;
+}
+
+.bottom h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+.bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom ul li {
+    display: block;
+    padding: 4px 0;
+}
+
+.bottom ul li a {
+    color: #808080;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.bottom ul li a:hover {
+    color: #3498db;
+    font-weight: bold
+}
+
+.bottom .widget {
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+/* End buttom */
+
+/* Start Footer */
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    background: #2e2e2e;
+    font-weight: 300;
+}
+
+.footer .myGithub {
+    color: #3498db
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #3498db;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul > li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* end footer */
