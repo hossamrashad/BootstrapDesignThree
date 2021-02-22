@@ -480,7 +480,7 @@ navbar-light {
 }
 
 /***********************************************************/
-/* Start */
+/* Start features */
 .features .featureWrap .icon {
     width: 42px;
     height: 42px;
@@ -515,7 +515,7 @@ navbar-light {
     color: #707070
 }
 
-/* End */
+/* End features*/
 
 /* Start recentWorks */
 .recentWorks {
@@ -585,3 +585,207 @@ navbar-light {
 }
 
 /* End recentWorks */
+
+/* Start services */
+.servicesWarp {
+    padding: 40px 30px;
+    background: #fff;
+    color: #707070;
+    border-radius: 4px;
+    margin: 0 0 40px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.servicesWarp:hover {
+    background-color: #FAFAFA
+}
+
+.servicesWarp img {
+    margin-right: 40px;
+    margin-top: 15px
+}
+
+.servicesWarp H5 {
+    font-size: 20PX;
+    margin: 0 0 15PX;
+    color: #333;
+    font-weight: 700
+}
+
+/* End services */
+
+/* Start middle & skillArea */
+.skillArea {
+    background-image: url(../images/skill-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff !important;
+    z-index: 1;
+    position: relative;
+    padding: 100px 0;
+}
+
+
+.skillArea::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .3;
+    z-index: -1;
+}
+
+.skillArea .skill {
+    margin-bottom: 60px;
+}
+
+.skillArea h2 {
+    font-size: 48px;
+    color: #fff
+}
+
+
+
+.skillArea .progressWrap {
+    position: relative;
+    padding: 10px 35px;
+}
+
+.progressWrap h3 {
+    color: #fff;
+    text-align: left;
+}
+
+
+.progress .color1,
+.progress .color1 .barWidth,
+.progress .color1 .barWidth::after {
+    background: #2d7da4;
+}
+
+.progress .color2,
+.progress .color2 .barWidth,
+.progress .color2 .barWidth::after {
+    background: #6aa42f;
+}
+
+.progress .color3,
+.progress .color3 .barWidth,
+.progress .color3 .barWidth::after {
+    background: #ffcc33;
+}
+
+.progress .color4,
+.progress .color4 .barWidth,
+.progress .color4 .barWidth::after {
+    background: #db3615;
+}
+
+
+
+
+.progress,
+.progress-bar {
+    height: 10px;
+    line-height: 10px;
+    background: #e6e6e6;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+    overflow: visible;
+    text-align: right;
+}
+
+
+
+
+span.barWidth::after {
+    content: '';
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    bottom: -32.5px;
+    border-radius: 50%;
+    right: 5px;
+    border: 4px solid #fff;
+}
+
+
+
+.progress {
+    position: relative;
+}
+
+
+
+
+.progress .barWidth {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    top: -40px;
+    border-radius: 2px;
+    margin-left: -30px;
+}
+
+
+.progress .progress-bar .barWidth {
+    background-color: #fff;
+    color: #707070;
+}
+
+.progress span {
+    position: relative;
+}
+
+
+
+.progress .progress-bar span:before {
+    content: " ";
+    position: absolute;
+    width: auto;
+    height: auto;
+    border-width: 8px 5px;
+    border-style: solid;
+    bottom: -15px;
+    right: 8px;
+    border-top-color: #ffffff;
+    color: #222;
+}
+
+
+
+
+
+
+
+
+.progress .color1 span:before {
+    border-color: #2d7da4 transparent transparent transparent;
+}
+
+.progress .color2 span:before {
+    border-color: #6aa42f transparent transparent transparent;
+}
+
+.progress .color3 span:before {
+    border-color: #ffcc33 transparent transparent transparent;
+}
+
+.progress .color4 span:before {
+    border-color: #db3615 transparent transparent transparent;
+}
+
+/* End middle & skillArea*/
