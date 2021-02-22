@@ -612,7 +612,7 @@
                         <h4>- Charlotte Daniels</h4>
                     </div>
                 </div>
-                <div class="single-slide item">
+                <div class="single-slide item ">
                     <div class="slide-img">
                         <img src="images/client2.jpg" alt="">
                     </div>
@@ -670,27 +670,37 @@
 
     <section id="partner" class="padding-tb-60">
         <div class="container">
-            <div class="text-c fadeInDown">
+            <div class="text-c">
                 <h2>Our Partners</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
 
             <div class="partners">
                 <ul class="list-unstyled margin-0 padding-0">
-                    <li class="col wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100" ata-wow-delay=".5s">
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/brand-1.png"></a>
-                    </li>
+
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/brand-2.png"></a>
+                        <a href="#">
+                            <img class="img-fluid wow bounceIn" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay=".5s" src="images/partners/brand-1.png"></a>
                     </li>
+
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/brand-3.png"></a>
+                        <a href="#">
+                            <img class="img-fluid wow bounceIn" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1s" src="images/partners/brand-2.png"></a>
                     </li>
+
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/brand-4.png"></a>
+                        <a href="#">
+                            <img class="img-fluid  wow bounceIn" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1.5s" src="images/partners/brand-3.png"></a>
                     </li>
+
                     <li>
-                        <a href="#"><img class="img-responsive fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/brand-5.png"></a>
+                        <a href="#">
+                            <img class="img-fluid wow bounceIn" data-wow-duration=".5s" data-wow-offset="100" data-wow-delay="2s" src="images/partners/brand-4.png"></a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img class="img-fluid wow bounceIn" data-wow-duration=".5s" data-wow-offset="100" data-wow-delay="2.5s" src="images/partners/brand-5.png"></a>
                     </li>
                 </ul>
             </div>
@@ -714,7 +724,15 @@
     </div>
 
 
-
+    <!-- Start icon lang-->
+    <div class="iconLang" style="position: fixed; top: 60px;right: 18px;z-index: 99999;">
+        <button class="btn btn-info showLang"><i class="fa fa-globe"></i></button>
+        <ul class="list-unstyled toggleLang" style=" display: none;">
+            <li style="color: darksalmon;background-color: #52C6D8;width: 39px;padding: 3px;text-align: center;margin-top: 3px;margin-bottom: 3px;"><a href="index.html" style="list-style: none;text-decoration: none;color: #ffff;">En</a></li>
+            <li style="color: darksalmon;background-color: #52C6D8;width: 39px;padding: 3px;text-align: center;"><a href="index-ar.html" style="list-style: none;text-decoration: none;color: #ffff;">Ar</a></li>
+        </ul>
+    </div>
+    <!-- End iconLang-->
 
 
 
@@ -731,7 +749,6 @@
         $(function() {
             $("body").niceScroll();
         });
-
     </script>
     <!------------------------------------------------->
     <!-- magnific popup -->
@@ -743,7 +760,6 @@
                 type: 'image'
             });
         });
-
     </script>
 
     <!------------------------------------------------->
@@ -762,7 +778,6 @@
     <script src="js/wow/wow.min.js"></script>
     <script>
         new WOW().init();
-
     </script>
 
     <!------------------------------------------------->
@@ -790,7 +805,6 @@
                 }
             }
         })
-
     </script>
 
 
@@ -798,6 +812,4 @@
 
     <!------------------------------------------------->
     <script src="js/plugin.js"></script>
-</body>
-
-</html>
+</body></html>
