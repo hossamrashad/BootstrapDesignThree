@@ -128,12 +128,6 @@
 *******Header******
 **************************/
 
-/*
-.header .search {
-    display: inline-block
-}
-*/
-
 .topBar {
     background-color: #191919;
     border-bottom: 1px solid #222;
@@ -198,7 +192,6 @@ navbar-light {
     margin: 0;
 }
 
-/* الاسهم اللى فى الناف بار اللى بتظهار فى شاشات الموبايل  */
 .navbar-light .navbar-toggler {
     background-color: #fff
 }
@@ -223,7 +216,7 @@ navbar-light {
 }
 
 .navbar .navbar-nav > li > a:hover {
-    background-color: #ee5253;
+    background-color: #3498db;
     color: #fff;
 }
 
@@ -233,15 +226,6 @@ navbar-light {
     color: #fff;
 }
 
-/*
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute !important;
-    top: 90px !important;
-}
-*/
-/* End navbar*/
-
-/* علشان اواسط العنصر فى الناص  */
 .slider .carousel-inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -254,7 +238,6 @@ navbar-light {
     justify-content: left
 }
 
-/* علشان الخالى العناصر فى الناص  */
 @media(max-width:576px) {
     .slider .carousel-inner {
         -webkit-box-pack: center;
@@ -263,7 +246,6 @@ navbar-light {
     }
 }
 
-/* علشان اخالى العنصر فى النص و هو فى الوضع المطلق */
 #main-slider .carousel-control-prev,
 #main-slider .carousel-control-next {
     position: absolute;
@@ -282,7 +264,6 @@ navbar-light {
 }
 
 /*************************/
-/* تنسيقات الكارزاى البوت استراب الفارجان 4 */
 
 .carousel .carousel-content {
     font-size: 18px;
@@ -303,7 +284,6 @@ navbar-light {
     color: #fff;
 }
 
-/* الاسهم اللى على الشمال و ايمين */
 #main-slider .carousel .btn-slide {
     padding: 0 30px;
     line-height: 42px;
@@ -365,7 +345,6 @@ navbar-light {
     z-index: 1;
 }
 
-/* الدفات اللى بيظهار فيه العناصر  */
 
 #main-slider .carousel-item {
     -webkit-background-size: cover;
@@ -396,7 +375,6 @@ navbar-light {
     background-repeat: no-repeat;
 }
 
-/*  */
 #main-slider .carousel-control-prev,
 #main-slider .carousel-control-next {
     position: absolute;
@@ -435,7 +413,6 @@ navbar-light {
 }
 
 
-/* المربعات اللى فى اخار الكرزار */
 .carousel-indicators li {
 
     background-color: transparent;
@@ -451,7 +428,6 @@ navbar-light {
 
 /************************************************/
 
-/* الاوفار لاى للعنصار  */
 .overlay {
     position: absolute;
     top: 0;
@@ -630,7 +606,6 @@ navbar-light {
     padding: 100px 0;
 }
 
-
 .skillArea::after {
     content: '';
     position: absolute;
@@ -652,8 +627,6 @@ navbar-light {
     color: #fff
 }
 
-
-
 .skillArea .progressWrap {
     position: relative;
     padding: 10px 35px;
@@ -663,7 +636,6 @@ navbar-light {
     color: #fff;
     text-align: left;
 }
-
 
 .progress .color1,
 .progress .color1 .barWidth,
@@ -689,9 +661,6 @@ navbar-light {
     background: #db3615;
 }
 
-
-
-
 .progress,
 .progress-bar {
     height: 10px;
@@ -704,9 +673,6 @@ navbar-light {
     text-align: right;
 }
 
-
-
-
 span.barWidth::after {
     content: '';
     height: 16px;
@@ -718,14 +684,9 @@ span.barWidth::after {
     border: 4px solid #fff;
 }
 
-
-
 .progress {
     position: relative;
 }
-
-
-
 
 .progress .barWidth {
     position: absolute;
@@ -740,7 +701,6 @@ span.barWidth::after {
     margin-left: -30px;
 }
 
-
 .progress .progress-bar .barWidth {
     background-color: #fff;
     color: #707070;
@@ -749,8 +709,6 @@ span.barWidth::after {
 .progress span {
     position: relative;
 }
-
-
 
 .progress .progress-bar span:before {
     content: " ";
@@ -764,13 +722,6 @@ span.barWidth::after {
     border-top-color: #ffffff;
     color: #222;
 }
-
-
-
-
-
-
-
 
 .progress .color1 span:before {
     border-color: #2d7da4 transparent transparent transparent;
