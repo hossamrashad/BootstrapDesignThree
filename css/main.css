@@ -1,5 +1,8 @@
 /* Start global */
 
+body {
+    min-height: 2000px
+}
 
 /* Start color */
 .colors {
@@ -771,3 +774,56 @@ span.barWidth::after {
 }
 
 /* End */
+/*************************
+********* About Us Page CSS ******
+**************************/
+.team-area {
+    background-color: #fafafa
+}
+
+.team-area .single-team {
+    margin-bottom: 30px
+}
+
+.team-area .single-team .inner {
+    background: #fff;
+    text-align: center;
+    color: #989898;
+    font-size: 16px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.single-team .inner:hover {
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.single-team .team-content {
+    padding: 30px 0;
+}
+
+.single-team h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 0;
+}
+
+.single-team .team-social {
+    margin-top: 15px;
+}
+
+.single-team .team-social a {
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 2px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+/***********************
+****Service page css****
+***********************/

@@ -2456,8 +2456,12 @@ body {
 /* End cursor*/
 
 /* Start hoverZoomLink */
+.hoverZoomScale {
+    overflow: hidden
+}
+
 .hoverZoomScale img {
-    transition: transform 0.5s ease-in-out
+    transition: transform 0.5s ease-in-out;
 }
 
 .hoverZoomScale img:hover {
@@ -2600,6 +2604,10 @@ body {
 
 .socialMedia .fa-skype:hover {
     color: #00aff0
+}
+
+.socialMedia .fa-envelope:hover {
+    color: #410093
 }
 
 /* End socialMedia */
