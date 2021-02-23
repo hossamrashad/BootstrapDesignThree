@@ -858,7 +858,8 @@ span.barWidth::after {
     border: 1px solid #F2F2F2;
     outline: none;
     border-radius: 3px;
-    cursor: pointer
+    cursor: pointer;
+    padding: 10px 20px;
 }
 
 .portfolio-filter > li:hover,
@@ -874,10 +875,6 @@ span.barWidth::after {
     padding: 0;
 }
 
-.filter-container {
-    min-height: 960px;
-    ;
-}
 
 .filtr-item {
     padding: 0;
