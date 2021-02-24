@@ -38,7 +38,18 @@ $(function () {
 
     });
 });
+$(function () {
 
+    'use strict';
+
+    $('.window-height').height($(window).height());
+
+    $(window).resize(function () {
+
+        $('.window-height').height($(window).height());
+
+    });
+});
 /**************************************************/
 /* scroll To Element */
 $(document).ready(function () {

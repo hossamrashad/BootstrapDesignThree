@@ -879,3 +879,55 @@ span.barWidth::after {
 .filtr-item {
     padding: 0;
 }
+
+/******************
+ 404 page css
+ ******************/
+
+
+#error {
+    background-repeat: no-repeat;
+    background-image: url(../images/404.png);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+#error .btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success:hover {
+    background-color: #EBEBEB;
+    border-color: #EBEBEB;
+    color: #4E4E4E;
+}
+
+
+#error h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 250px;
+    line-height: 190px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+#error p {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
