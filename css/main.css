@@ -1011,7 +1011,7 @@ span.barWidth::after {
     background-color: #FAFAFA;
 }
 
-.blog-item {
+.blog .blog-item {
     border-radius: 0;
     overflow: hidden;
     margin-bottom: 30px;
@@ -1023,9 +1023,24 @@ span.barWidth::after {
     margin-bottom: 0;
 }
 
-.blog .blog-item .blog_cat {
-    color: #000;
+.blog .blog-content .blog_cat {
+    color: #3498db;
+    text-decoration: none;
+}
 
-    padding-top: 50px;
-    text-decoration: none !important;
+.blog .blog-content h2 {
+    padding: 20px 0;
+}
+
+.blog .blog-content h2 a {
+    text-decoration: none;
+}
+
+.blog .blog-content a {
+    text-decoration: none
+}
+
+.blog .seach {
+    padding: 30px 0;
+    background: #fff
 }
