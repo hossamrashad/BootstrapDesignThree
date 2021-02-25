@@ -940,6 +940,7 @@ span.barWidth::after {
     /*   height: 100vh;*/
 }
 
+/*
 .wrapper .content-area {
     width: 100%;
     margin: 0 auto;
@@ -1001,4 +1002,30 @@ span.barWidth::after {
     font-size: 18px;
     margin-top: 30px;
     text-transform: uppercase;
+}
+*/
+/*blog*/
+
+
+#blog {
+    background-color: #FAFAFA;
+}
+
+.blog-item {
+    border-radius: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.blog .blog-item .img-blog {
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.blog .blog-item .blog_cat {
+    color: #000;
+
+    padding-top: 50px;
+    text-decoration: none !important;
 }
