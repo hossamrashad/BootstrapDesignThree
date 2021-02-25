@@ -22,7 +22,9 @@ body {
     font-family: Cairo
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .windowHeight {}
 
@@ -2782,7 +2784,7 @@ body {
 
 /* End opacity */
 
-/* Start */
+/* Start elementCenter*/
 
 .elementCenter {
     position: absolute;
@@ -2791,7 +2793,20 @@ body {
     transform: translate(-50%, -50%)
 }
 
-/* End */
+/* End elementCenter */
+/* Start shadowBox*/
+
+.shadowBox {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.shadowBox:hover {
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* End shadowBox */
 
 /* Start  dynamic Tabs */
 /********************************************************************/
@@ -2814,14 +2829,12 @@ body {
     color: #fff;
 }
 
-
 .dynamic-tabs .content-list {
     border: 1px solid #3498db;
     background-color: #fff;
     position: relative;
     height: 320px
 }
-
 
 .dynamic-tabs .content-list > div {
     padding: 20px;
@@ -3003,3 +3016,110 @@ body {
 }
 
 /* end footer */
+/******************************************************/
+.banner {
+    background-image: url(https://placeimg.com/1000/1000/people);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.back-fff {
+    background-color: #ffffff
+}
+
+/* Start */
+.multiscroll {}
+
+#multiscroll .one {
+    background: #4883D7;
+    color: #fff;
+    text-align: center;
+}
+
+#multiscroll .one .h1 {
+    font-family: big john;
+    font-size: 65px;
+}
+
+#multiscroll .one p {
+    padding: 0 15px;
+    font-size: 25px;
+    font-family: merienda;
+}
+
+#multiscroll .one a {
+    background: #252525;
+    color: #fff;
+    padding: 10px 40px;
+    display: inline-block;
+    font-family: baloo;
+}
+
+#multiscroll .four {
+    background-image: url(../images/start/one.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#multiscroll .tow {
+    background-image: url(../images/start/one.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+#multiscroll .five {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/start/tow.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+#multiscroll .five .h1 {
+    font-size: 65;
+    font-family: big john;
+    margin: 0;
+}
+
+#multiscroll .five p {
+    padding: 0 15%;
+    font-size: 16px;
+    font-family: merienda;
+}
+
+
+#multiscroll .three {
+    background-image: url(../images/start/webdesign%201920x1080-9.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+#multiscroll .sex {
+    text-align: center
+}
+
+#multiscroll .sex input {
+    width: 70%;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid #000;
+}
+
+#multiscroll-nav span {
+    border: 1px solid #3498db;
+    background-color: #3498db
+}
+
+
+
+/* End */

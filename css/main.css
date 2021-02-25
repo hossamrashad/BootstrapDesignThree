@@ -931,3 +931,74 @@ span.barWidth::after {
     margin-bottom: 20px;
     line-height: 50px;
 }
+
+/***************************/
+/******************
+ blog page css
+ ******************/
+.wrapper {
+    /*   height: 100vh;*/
+}
+
+.wrapper .content-area {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper .content-area .logo {
+    width: 30%;
+    float: left;
+    color: #fff;
+    font-family: Audiowide;
+    font-size: 40px;
+}
+
+.wrapper .content-area nav {
+    height: 50px
+}
+
+.wrapper .content-area nav ul {
+    list-style: none;
+    width: 60%;
+    float: right;
+}
+
+.wrapper .content-area nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+.wrapper .content-area nav ul li a {
+    text-decoration: none;
+    font-family: poppins;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.wrapper .content-area .content-text {
+    width: 520px;
+    margin: 140px auto;
+    text-align: center;
+}
+
+.wrapper .content-area .content-text h2 {
+    font-size: 60px;
+    color: #fff;
+    font-family: Audiowide;
+}
+
+.wrapper .content-area .content-text p {
+    font-size: 30px;
+    color: #fff;
+}
+
+.wrapper .content-area .content-text a {
+    text-decoration: none;
+    display: inline-block;
+    background: red;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
