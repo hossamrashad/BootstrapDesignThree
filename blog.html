@@ -135,8 +135,6 @@
                                 pages
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="blog-item.html">blog single</a>
-                                <a class="dropdown-item" href="pricing.html">pricing </a>
                                 <a class="dropdown-item" href="404.html">404 </a>
                             </div>
                         </li>
@@ -180,6 +178,7 @@
                 <div class="col-sm-8">
                     <div class="blog-item ">
                         <div class="hoverZoomScale">
+
                             <a class="magnific" href="images/blog1.png"><img class="img-fluid img-blog" src="images/blog1.png" width="100%" alt="" /></a>
                         </div>
                         <br>
@@ -192,7 +191,9 @@
                     </div>
                     <!-- Start -->
                     <div class="blog-item">
-                        <a href="#"><img class="img-responsive img-blog" src="images/blog2.png" width="100%" alt="" /></a>
+                        <div class="hoverZoomScale">
+                            <a class="magnific" href="#"><img class="img-responsive img-blog" src="images/blog2.png" width="100%" alt="" /></a>
+                        </div>
                         <div class="blog-content"><br>
                             <a href="#" class="blog_cat">UI/UX DESIGN</a>
                             <h2><a href="blog-item.html">Consequat bibendum quam liquam viverra</a></h2>
@@ -204,13 +205,18 @@
 
                     <!-- Start -->
                     <div class="blog-item">
-                        <a href="#"><img class="img-responsive img-blog" src="images/blog3.png" width="100%" alt="" /></a>
-                        <div class="blog-content">
-                            <br>
-                            <a href="#" class="blog_cat">UI/UX DESIGN</a>
-                            <h2><a href="blog-item.html">Consequat bibendum quam liquam viverra</a></h2>
-                            <h3>Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper.</h3>
-                            <a class="readmore" href="blog-item.html">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        <div class="">
+                            <div class="hoverZoomScale">
+                                <a class="magnific" href="#"><img class="img-responsive img-blog" src="images/blog3.png" width="100%" alt="" /></a>
+                            </div>
+                            <div class="blog-content">
+
+                                <br>
+                                <a href="#" class="blog_cat">UI/UX DESIGN</a>
+                                <h2><a class="text-d-n" href="blog-item.html">Consequat bibendum quam liquam viverra</a></h2>
+                                <p class="lead">Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper.</p>
+                                <a class="readmore " href="blog-item.html">Read More <i class="fa fa-long-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                     <!-- End -->
@@ -225,6 +231,82 @@
                             <input type="text" class="form-control search_box" autocomplete="off" placeholder="Search Here">
                             <button type="submit"><i class="fa fa-search"></i></button>
                         </form>
+                    </div>
+
+                    <!-- Start -->
+                    <div class="widget archieve">
+                        <h3>Categories</h3>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <ul class="blog_archieve">
+                                    <li><a href="#">December 2011 <span class="pull-right">(97)</span></a></li>
+                                    <li><a href="#">November 2021 <span class="pull-right">(32)</span></a></li>
+                                    <li><a href="#">October 2021 <span class="pull-right">(19)</span></a></li>
+                                    <li><a href="#">September 2021 <span class="pull-right">(08)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End -->
+
+                    <div class="widget popular_post margin-tb-50 back-fff padding-tb-30">
+                        <h3>Popular Post</h3>
+                        <ul class="list-unstyled">
+                            <li class="margin-tb-20 ">
+                                <a class="magnific" href="images/post1.png">
+                                    <img class="img-fluid" src="images/post1.png" alt="">
+                                    <p class="color-999 padding-t-30">Can you get free games for you</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="images/post2.png" alt="">
+                                    <p class="color-999 padding-t-20">Can you get free games for you</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="magnific text-d-n" href="#">
+                                    <img class="img-fluid" src="images/post3.png" alt="">
+                                    <p class="color-999 padding-t-20">Can you get free games for you</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.archieve-->
+
+                    <div class="widget blog_gallery">
+                        <br>
+                        <h3>Our Gallery</h3>
+                        <ul class="sidebar-gallery clearfix ">
+                            <li>
+                                <a href="#"><img class="img-fluid" src="images/sidebar-g-1.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img class="img-fluid" src="images/sidebar-g-2.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img class="img-fluid" src="images/sidebar-g-3.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img class="img-fluid" src="images/sidebar-g-4.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img class="img-fluid" src="images/sidebar-g-5.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img class="img-fluid" src="images/sidebar-g-6.png" alt="" /></a>
+                            </li>
+                        </ul>
+                        <br>
+                    </div>
+                    <!--/.blog_gallery-->
+                    <div class="socialMedia">
+                        <a href="https://www.facebook.com/bebo.hossam1/" target="_blank"><i class="fa fa-facebook fa-fw "></i></a>
+                        <a href="https://twitter.com/HaithamBibo" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+                        <a href="https://www.linkedin.com/in/hossam-rashed-502747174/" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
+                        <a href="https://www.pinterest.com/haithamrashad78/_saved/" target="_blank"><i class="fa fa-pinterest fa-fw"></i></a>
+                        <a href="https://www.youtube.com/channel/UCxIHHTjp3JdvyES5lIphsSg" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
+                        <a href="mailto:hossamrashedhagezy@yahoo.com?subject=contact"><i class="fa fa-envelope"></i></a>
                     </div>
                 </div>
                 <!-- End col-->
@@ -242,9 +324,110 @@
 
 
 
+    <!-- bottom linke -->
+    <section id="bottom" class="bottom padding-tb-60">
+
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#" class="footer-logo">
+                        <img src="images/logo-black.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Company</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">We are hiring</a></li>
+                                    <li><a href="#">Meet the team</a></li>
+                                    <li><a href="#">Copyright</a></li>
+                                    <li><a href="#">Terms of use</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Support</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Faq</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Forum</a></li>
+                                    <li><a href="#">Documentation</a></li>
+                                    <li><a href="#">Refund policy</a></li>
+                                    <li><a href="#">Ticket system</a></li>
+                                    <li><a href="#">Billing system</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Developers</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">SEO Marketing</a></li>
+                                    <li><a href="#">Theme</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">Email Marketing</a></li>
+                                    <li><a href="#">Plugin Development</a></li>
+                                    <li><a href="#">Article Writing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="widget">
+                                <h3>Our Partners</h3>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Adipisicing Elit</a></li>
+                                    <li><a href="#">Eiusmod</a></li>
+                                    <li><a href="#">Tempor</a></li>
+                                    <li><a href="#">Veniam</a></li>
+                                    <li><a href="#">Exercitation</a></li>
+                                    <li><a href="#">Ullamco</a></li>
+                                    <li><a href="#">Laboris</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--/.col-md-3-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bottom -->
 
 
 
+    <!--#footer-->
+
+    <footer id="footer" class="midnight-blue footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2021 <a target="_blank" href="https://github.com/stars" title="Free Twitter Bootstrap WordPress Themes and HTML templates" class="myGithub">Hossam Rashad</a> All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="portfolio.html">portfolio</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
 
 
     <!--
@@ -506,6 +689,7 @@
         $(function() {
             $("body").niceScroll();
         });
+
     </script>
     <!------------------------------------------------->
     <!-- magnific popup -->
@@ -517,6 +701,7 @@
                 type: 'image'
             });
         });
+
     </script>
 
     <!------------------------------------------------->
@@ -534,6 +719,7 @@
     <script src="js/wow/wow.min.js"></script>
     <script>
         new WOW().init();
+
     </script>
 
 
@@ -553,8 +739,11 @@
                 maxFontSize: '300px'
             });
         });
+
     </script>
     <!------------------------------------------------->
     <script src="js/plugin.js"></script>
 
-</body></html>
+</body>
+
+</html>
