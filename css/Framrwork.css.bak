@@ -22,9 +22,6 @@ body {
     font-family: Cairo
 }
 
-a {
-    text-decoration: none;
-}
 
 .windowHeight {}
 
@@ -33,6 +30,8 @@ a {
 .paddingNavbarHeight {}
 
 .paddingMidWindow {}
+
+.magnific {}
 
 .bounceInRight {}
 
