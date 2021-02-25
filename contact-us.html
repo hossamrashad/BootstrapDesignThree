@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 
 <head>
     <meta charset="utf-8">
@@ -22,11 +22,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
 
+    <!------------------------------------------------->
+    <!-- magnific -->
+    <!--<a class="magnific" href="img/favicon.jpg"><img src="img/favicon.jpg" alt=""></a>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/magnific/magnific-popup.css">
 
     <!------------------------------------------------->
-    <!-- multiscroll -->
-    <link rel="stylesheet" href="css/multiscroll/jquery.multiscroll.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.min.css" integrity="sha512-IwtqWeTmYKNClHTbx4VR0476JlMDqGgsq/9QHEu2Fd4sHgK4tlNWJx893Lq6Jh3R36pfMy21mKJe9DFcSoDz0w==" crossorigin="anonymous" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+
+    <!------------------------------------------------->
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.1/animate.min.css" />
+    <link rel="stylesheet" href="css/Animate/v-3.7.1/animate.min.css">
+
+    <!------------------------------------------------->
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/Owl-Carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/Owl-Carousel/owl.theme.default.min.css">
+
     <!------------------------------------------------->
     <!-- My Style -->
     <link rel="stylesheet" href="css/Framrwork.css">
@@ -38,42 +56,8 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<!--/head-->
 
 <body>
-
-
-
-
-    <div id="multiscroll">
-        <div class="ms-left">
-            <div class="ms-section one">
-
-                <div class="elementCenter">
-                    <input type="text" name="" id="" placeholder="Your Name">
-                </div>
-
-
-            </div>
-            <div class="ms-section tow">Section 2 left</div>
-            <div class="ms-section three">Section 3 left</div>
-        </div>
-        <div class="ms-right">
-            <div class="ms-section four">
-
-            </div>
-            <div class="ms-section five">
-                <h2>why use?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, voluptatibus debitis praesentium eum vel est facilis corporis iure recusandae aliquam ipsa ratione accusantium. Distinctio, expedita provident inventore voluptatum eligendi amet vel saepe unde officia. Aspernatur consectetur eveniet voluptate praesentium, amet aliquam, quos earum! Accusantium ea, sunt voluptates eius odit cum?</p>
-
-            </div>
-            <div class="ms-section sex">
-                <h2>contact me</h2>
-                <input type="text" name="" id="" placeholder="your name ...">
-            </div>
-        </div>
-    </div>
-
 
 
 
@@ -83,22 +67,70 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
 
-
     <!------------------------------------------------->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.min.js" integrity="sha512-kqTpenw3a9/QQwWsPVXB/dlZzSPdcvy/7AWZARSZ+uhX5y61VLhwpCPylmahUidMPXdWneDQLAHz0hA6I2VkYw==" crossorigin="anonymous"></script>
-
+    <!-- nicescroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+    <script>
+        $(function() {
+            $("body").niceScroll();
+        });
+    </script>
+    <!------------------------------------------------->
+    <!-- magnific popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific/jquery.magnific-popup.js"></script>
     <script>
         $(document).ready(function() {
-            $('#multiscroll').multiscroll({
-
-                navigation: true,
-                navigationPosition: 'right',
-                navigationColor: '#000'
+            $('.magnific').magnificPopup({
+                type: 'image'
             });
         });
     </script>
+
+    <!------------------------------------------------->
+    <!-- bootstrap  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstap/popper.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/bootstap/bootstrap.min.js"></script>
+
+    <!------------------------------------------------->
+    <!-- wow   -->
+    <!--<div class="wow fadeInUp" data-wow-duration="1s" data-wow-offset="100"></div>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!------------------------------------------------->
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            smartSpeed: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
     <!------------------------------------------------->
     <script src="js/plugin.js"></script>
 </body></html>

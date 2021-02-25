@@ -216,3 +216,18 @@ $('.showLang').click(function () {
     $('.toggleLang').slideToggle();
 
 });
+
+/**************************************/
+
+/* start section loading */
+/*
+$(document).ready(function () {
+
+    'use strict';
+
+    $(".carousel").cardusel({
+        interval: 3000
+    });
+});
+*/
+/* end section loading */
